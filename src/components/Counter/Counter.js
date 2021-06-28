@@ -20,7 +20,9 @@ class Counter extends Component {
     this.setState(prevState => ({
       value: prevState.value + 1,
     }));
+    
   };
+
 
   handleDecrement = () => {
     this.setState(prevState => ({
